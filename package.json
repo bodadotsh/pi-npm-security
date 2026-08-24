@@ -1,6 +1,6 @@
 {
   "name": "pi-npm-security",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Pi package for npm/supply-chain security workflows: Socket MCP bridge extension, npm security best-practices skill, and related tooling.",
   "license": "MIT",
