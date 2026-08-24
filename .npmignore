@@ -1,4 +1,5 @@
 # Development / tooling (not needed at install time)
+.github/
 scripts/
 tsconfig.json
 mise.toml

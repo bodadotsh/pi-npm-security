@@ -3,9 +3,16 @@
   "version": "0.0.1",
   "type": "module",
   "description": "Pi package for npm/supply-chain security workflows: Socket MCP bridge extension, npm security best-practices skill, and related tooling.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodadotsh/pi-npm-security.git"
+  },
   "keywords": [
     "pi-package"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "pi": {
     "extensions": [
       "./extensions"
