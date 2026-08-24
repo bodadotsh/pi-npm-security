@@ -1,0 +1,34 @@
+{
+  "name": "pi-npm-security",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Pi package for npm/supply-chain security workflows: Socket MCP bridge extension, npm security best-practices skill, and related tooling.",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@socketsecurity/mcp": "^0.0.20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.3",
+    "typebox": "^1.3.18",
+    "typescript": "^5.9.3",
+    "@types/node": "^26.0.0"
+  }
+}

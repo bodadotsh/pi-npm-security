@@ -1,0 +1,11 @@
+# Development / tooling (not needed at install time)
+scripts/
+tsconfig.json
+mise.toml
+package-lock.json
+
+# VCS / editor / OS
+.git/
+.gitignore
+*.log
+.DS_Store
